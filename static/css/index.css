@@ -1,0 +1,387 @@
+body {
+	font: 16px "calisto_ft";
+	color: #212121;
+}
+@font-face {
+	font-family: "alger";
+	src: url("../font/ALGERIAN.TTF");
+}@font-face {
+	font-family: "ARIAL";
+	src: url("../font/ARIAL.TTF");
+}
+@font-face {
+	font-family: "calisto_ft";
+	src: url("../font/CALISTB.TTF");
+}@font-face {
+	font-family: "calisto";
+	src: url("http://synth.huizhirh.com/public/home/font/calisto-mt.TTF");
+}
+.s_content p{
+    font-family: "ARIAL";
+    
+}
+.s_content a:hover{
+    color: #212121;
+}
+.calisto{
+    font-family: 'calisto';
+}
+.calisto_ft{
+    font-family: 'calisto_ft';
+}
+.alger{
+    font-family: 'alger';
+}.arial{
+    font-family: 'ARIAL';
+}
+.he100 .wow img{
+    height: 100%;
+}
+.he100 .item-p{
+    height: 100%;
+}
+.he100 .item-p .img1{
+    height: 100%;
+}
+header{
+    background: #000;
+  padding: 30px 40px;
+}
+.layui-nav .layui-nav-item a{
+    font-size: 24px;
+    /*color: white;*/
+    background: ;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    opacity: 1;
+}
+.site-mobile .layui-side{
+    background: #000 !important
+    ;
+}
+.index_ul{
+    margin-bottom: 500px;
+}
+.layui-nav .layui-nav-item {
+    position: relative;
+}
+
+.layui-nav .layui-nav-item .b1{
+ position: absolute;
+ z-index: 1;
+width: 100%;
+top: 50%;
+    transform: translateY(-50%);
+}
+.layui-nav .layui-nav-item .b1 img{
+    width: 100px;
+}
+
+.index_bg{
+    background-size:100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.index_bg1{
+    
+    background-position: bottom;
+}
+.back_top{
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    cursor: pointer;
+    z-index: 90;
+}
+.body>*:not(header,.load_page){
+    opacity:0;
+}
+.index_ul .video{
+    width: 100%;
+    max-width: 100%;
+}
+.title_logo{
+    max-width:600px;
+}
+.lt_dl{
+    padding-left: 265px;
+    display: grid ;
+    gap: 60px 60px;
+}
+.lt_dl .item:hover .img1{
+     opacity: 0;
+}
+.lt_dl .b1{
+    padding: 20px;
+    background: #9f9f9f;
+opacity: 0;
+    transform: rotateY(-180deg);
+}
+.lt_dl .item:hover .b1{
+    opacity: 1;
+    /*visibility: visible;*/
+    /*animation-name: flipInY;*/
+    transform: rotateY(0deg);
+    overflow-y: auto;
+}
+
+.lt_dl .item:hover  .img1{
+    transform: rotateY(-180deg);
+    
+}
+
+
+.lt_dl .item .b1,
+
+.lt_dl .item .img{
+        transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: .5s;
+    transition-property: transform, opacity;
+}
+.product_title .title{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center; 
+    aspect-ratio: 237 / 25;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.product_title  .content{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    aspect-ratio: 86/49;
+    padding: 37px 60px 70px;
+     margin: -38px 40px 0 44px;
+    max-width: 100%;
+    width: calc(100% - 82px);
+display: none;
+    position: relative;
+    top: 0;
+
+    
+}
+.layui-nav .layui-nav-more{
+    display: none;
+}
+.product_title .content_text{
+    height: 98%;
+    overflow: hidden;
+    overflow-y: auto;
+    
+}
+.note_box{
+display: grid;
+grid-template-columns: 300px 200px 1fr ;
+    
+}
+.note_title{
+    overflow: hidden;
+}
+.note_title_img{
+    transition: all 0.3s;
+    position: relative;
+    right: 0;
+}
+.note_title_img.active{
+    right: -130px;
+}
+.note_title_box {
+    position: relative;
+}
+.note_title_box .img_bg{
+    position: absolute;
+    z-index: 1;
+    right: -39px;
+    top: -60px;
+    bottom: -83px;
+}
+.note_label_ul{
+   display: flex;
+    border-right: 4px solid #000;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.note_label{
+    font-weight: bold;
+    cursor: pointer;
+    width:140px;
+    text-align: center;
+    height: 68px;
+    padding: 20px 20px 20px 30px;
+    background-size: 100% 100%;
+    margin: 17px 0;
+    background-repeat: no-repeat;
+}
+.note_content_box{
+    height: 1100px;
+    padding: 60px 120px 60px 100px;
+    margin-left: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.note_content{
+    height: 950px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.note_label_ul .note_label:nth-child(1n) {
+	background-image: url(../image/label1.png);
+}
+.note_label_ul .note_label:nth-child(2n) {
+	background-image: url(../image/label2.png);
+}
+.note_label_ul .note_label:nth-child(3n) {
+	background-image: url(../image/label3.png);
+}
+.note_label_ul .note_label:nth-child(4n) {
+	background-image: url(../image/label4.png);
+}
+.note_label_ul .note_label:nth-child(5n) {
+	background-image: url(../image/label5.png);
+}
+.note_label_ul .note_label:nth-child(6n) {
+	background-image: url(../image/label6.png);
+}
+.note_label_ul .note_label:nth-child(7n) {
+	background-image: url(../image/label7.png);
+}
+.note_label_ul .note_label:nth-child(8n) {
+	background-image: url(../image/label8.png);
+}
+.note_label_ul .note_label:nth-child(9n) {
+	background-image: url(../image/label9.png);
+}
+.note_label_ul .note_label:nth-child(10n) {
+	background-image: url(../image/label10.png);
+}
+.note_label_ul .note_label:nth-child(11n) {
+	background-image: url(../image/label11.png);
+}
+.note_label_ul .note_label:nth-child(12n) {
+	background-image: url(../image/label12.png);
+}
+
+.com_ul{
+    gap:260px
+}
+.com_ul .item{
+    position: relative;
+    z-index: 1;
+    min-height: 800px;
+}
+.com_ul .item::before{
+    display: block;
+    content: '';
+    background: url(../image/cart.png) no-repeat;
+    position: absolute;
+    background-size: 100% 100%;
+     top: -80px;
+    bottom: -80px;
+    left: -60px;
+    right: -60px;
+}
+
+.com_box{
+    padding-bottom: 200px;
+}
+.back_top{
+    transition: all 0.3s;
+    opacity: 0;
+}
+.bgcolor+.back_top{
+     opacity: 1;
+}
+.back_top:hover{
+    scale: 1.2;
+    
+}
+.result_ul .block{
+    width: 1200px;
+    max-width: calc( 100% - 100px);
+    margin-left:100px ;
+    /*background: #EAEAEA;*/
+    /*border: 8px solid #000000;*/
+    width: 100%;
+    padding: 30px;
+}
+.back_ul .item{
+    grid-template-columns: 40% 1fr;
+}
+.body{
+    height: 100vh;
+    overflow: hidden;
+}
+.back_ul .item .block1{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding: 90px 110px;
+}
+.back_ul .item .block1::before{
+    display: block;
+    content: '';
+    background: url(../image/cart1.png) no-repeat;
+    position: absolute;
+    background-size: 100% 100%;
+     top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: 0px;
+}
+.load_page{
+  
+}
+.body .header.bgcolor{
+    position: fixed !important;
+}
+.load_page{
+    position: fixed;
+    top: 120px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 998;
+   	background-image: -webkit-linear-gradient(
+		top,
+		rgba(255,255,255) 30%,
+		rgba(195,196,199),
+		rgb(45, 46, 46)
+	);
+}
+@media only screen and (max-width: 1400px) {
+    .lt_dl{
+        padding-left: 0;
+    }
+    
+.product_title .content{
+        background-size: 100%;
+    background-repeat: no-repeat;
+    aspect-ratio: 86 / 49;
+    padding: 37px 63px 70px;
+    margin: -21px 6px 0 15px;
+    max-width: 100%;
+    width: calc(100% - 31px);
+    display: none;
+    position: relative;
+    top: 0;
+}
+}
+}
+
+@media only screen and (max-width: 990px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1400px) {
+}
+
+@media only screen and (min-width: 751px) {
+}
